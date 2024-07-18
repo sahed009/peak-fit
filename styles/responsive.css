@@ -6,7 +6,11 @@
   .navbar {
     display: none;
   }
+  .website-name {
+    margin-top: 52px;
+  }
   .hamburger-menu {
     display: block;
+    margin-top: 52px;
   }
 }
