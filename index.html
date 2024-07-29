@@ -35,11 +35,82 @@
             <div class="banner-img"></div>
         </section>
     </header>
-    <main class="container">
+    <main>
         <section class="challenge"></section>
         <section class="extra-mile"></section>
         <section class="trainings"></section>
-        <section class="bmi"></section>
+        <section class="bmi">
+            <div class="bmi-headings">
+                <h1 class="bmi-title">BMI Calculator</h1>
+                <p class="bmi-desc">We think fitness should be available to everyone, everywhere, no matter their income
+                    or
+                    access to a gym.</p>
+            </div>
+            <div class="bmi-content">
+                <div class="container">
+                    <!-- bmi chart  -->
+                    <table class="bmi-chart">
+                        <caption>BMI Calculator Chart</caption>
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 – 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 – 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 – and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- bmi calculator  -->
+                    <div class="bmi-calculator">
+                        <h2>Calculate your BMI</h2>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
+                            access
+                            to a gym.</p>
+                        <div class="calculator">
+                            <div class="form-container">
+                                <input type="text" id="height" name="height" placeholder="Height/cm">
+                                <input type="text" id="weight" name="weight" placeholder="Weight/kg">
+                                <input type="text" id="age" name="age" placeholder="Age">
+                                <select id="sex" name="sex">
+                                    <option value="">Sex</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                                <select id="activity" name="activity">
+                                    <option value="">Select an activity factor</option>
+                                    <option value="1.2">Sedentary</option>
+                                    <option value="1.375">Lightly active</option>
+                                    <option value="1.55">Moderately active</option>
+                                    <option value="1.725">Very active</option>
+                                    <option value="1.9">Super active</option>
+                                </select>
+                                <div class="button-group">
+                                    <button type="button">Calculate</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="team"></section>
     </main>
     <footer>

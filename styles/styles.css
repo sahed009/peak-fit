@@ -8,6 +8,9 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0 auto;
 }
+button {
+  border: none;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -45,12 +48,12 @@ nav {
   list-style-type: none;
 }
 .navbar li:hover {
-    background: #E6533C;
-    transition: ease-in-out;
-    transition-duration: 0.6s;
+  background: #e6533c;
+  transition: ease-in-out;
+  transition-duration: 0.6s;
 }
 .navbar li:first-child {
-  background: #E6533C;
+  background: #e6533c;
 }
 /* header styles  */
 header {
@@ -61,10 +64,123 @@ header {
   font-family: "Meie Script", cursive;
   color: white;
 }
-/* bmi calculator section  */
-.bmi {
-  background: #222222;
+/* bmi calculator styles  */
+.bmi-headings {
+  margin: 88px auto;
+  width: 45%;
 }
+.bmi-title {
+  color: white;
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 14px;
+}
+.bmi-desc {
+  color: #808080;
+  font-size: 14px;
+}
+.bmi-content {
+  background-color: #222222;
+  color: white !important;
+}
+.bmi-content .container {
+  display: flex;
+  justify-content: center;
+  gap: 175px;
+  padding: 52px 0;
+}
+.bmi-content table,
+th,
+td {
+  padding: 10px 0px;
+  border: 1px solid #383838;
+  border-collapse: collapse;
+  text-align: center;
+}
+.bmi-content table caption {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 52px;
+  text-align: left;
+}
+.bmi-content th {
+  font-weight: 500;
+}
+.bmi-content td {
+  color: #909090;
+}
+.bmi-chart {
+  flex: 1;
+}
+.bmi-calculator {
+  flex: 1;
+  color: white;
+}
+.bmi-calculator h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.bmi-calculator p {
+  color: #909090;
+  margin-bottom: 30px;
+}
+
+.calculator {
+  color: #afafaf;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0;
+}
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 20px;
+  padding-left: 0;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.form-container input,
+.form-container select {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 14px 20px;
+  border: 1px solid #383838;
+  border-radius: 8px;
+  background-color: #383838;
+  color: #afafaf;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form-container input::placeholder {
+  color: #afafaf;
+}
+.button-group,
+#activity {
+  grid-column: span 2;
+  display: flex;
+}
+
+.button-group button {
+  padding: 16px 70.5px;
+  background-color: #E6533C;
+  border: none;
+  border-radius: 42px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+}
+
+.button-group button:hover {
+  background-color: #e64a19;
+}
+
 /* footer styles */
 footer {
   background: #191919;

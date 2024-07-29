@@ -1,8 +1,8 @@
 @media screen and (max-width: 576px) {
-
   .container {
-    max-width: 350px;
+    max-width: 370px;
   }
+  /* Navbar  */
   .navbar {
     display: none;
   }
@@ -13,4 +13,20 @@
     display: block;
     margin-top: 52px;
   }
+  /* Banner */
+
+  /* bmi  */
+  .bmi-content .container {
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 42px;
+  }
+  .bmi-headings {
+    width: 80%;
+  }
+  .bmi-title {
+    font-size: 32px;
+    line-height: 120%;
+  }
+
 }
