@@ -219,7 +219,7 @@ header {
 
 /* extra mile  */
 .extra-mile {
-  margin-top: 100px auto;
+  margin: 100px auto;
   background: #222222;
   border-radius: 18px;
   display: grid;
@@ -243,14 +243,13 @@ header {
 .extra-mile-btn {
   color: white;
   padding: 16px 71.5px;
-  background: #E6533C;
+  background: #e6533c;
   border-radius: 42px;
   font-size: 18px;
   font-weight: 500;
 }
 
-
-.extra-mile-img{
+.extra-mile-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,6 +260,97 @@ header {
   max-width: 100%;
   height: auto;
 }
+
+/* training  */
+.trainings-headings {
+  width: 70%;
+}
+.trainings-headings h1{
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 100px;
+  margin-bottom: 14px;
+}
+.trainings-headings p {
+  color: #808080;
+  font-size: 14px;
+}
+.training-container {
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  height: 100vh;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item1 {
+  background-image: url("../images/exercise1.jpg");
+  grid-column: 1 / 4;
+}
+.item2 {
+  background-image: url("../images/exercise2.png");
+  grid-column: 4 / 9;
+}
+.item3 {
+  background-image: url("../images/exercise3.png");
+  grid-column: 9 / 12;
+}
+.item4 {
+  background-image: url("../images/exercise4.png");
+  grid-column: 1 / 6;
+}
+.item5 {
+  background-image: url("../images/exercise5.jpg");
+  grid-column: 6 / 9;
+}
+.item6 {
+  background-image: url("../images/exercise6.jpg");
+  grid-column: 9 / 12;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.31);
+}
+
+
+.item1 .overlay {
+  background-color: rgba(6, 255, 210, 0.31);
+}
+.item2 .overlay {
+  background-color: rgba(255, 0, 0, 0.19);
+}
+.item3 .overlay {
+  background-color: rgba(0, 0, 0, 0.31);
+}
+.item4 .overlay {
+  background-color: rgba(0, 0, 0, 0.31);
+}
+.item5 .overlay {
+  background-color: rgba(66, 255, 0, 0.19);
+}
+.item6 .overlay {
+  background-color: rgba(0, 71, 255, 0.19);
+}
+
 
 /* bmi calculator styles  */
 .bmi-headings {

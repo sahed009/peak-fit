@@ -49,7 +49,7 @@
     bottom: 250px;
   }
   /* habit */
-  .habit  {
+  .habit {
     margin: 20px auto;
   }
   .habit .habit-headings {
@@ -67,7 +67,7 @@
 
   /* extra mile  */
   .extra-mile {
-    margin: 60px auto;
+    margin: 50px auto;
     grid-template-columns: 1fr;
     gap: 10px;
   }
@@ -75,11 +75,29 @@
     padding: 30px;
   }
   .extra-mile-content h1 {
-  font-size: 32px;
+    font-size: 32px;
   }
   .extra-mile-btn {
     width: 100%;
   }
+
+  /* training  */
+  .trainings-headings {
+    width: 90%;
+  }
+  .trainings-headings h1 {
+    font-size: 32px;
+    margin: 0 auto;
+  }
+  .training-container {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .overlay {
+    font-size: 10px;
+  }
+
   /* bmi  */
   .bmi-content .container {
     flex-direction: column;
