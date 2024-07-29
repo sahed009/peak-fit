@@ -64,6 +64,22 @@
   .habit-content {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  /* extra mile  */
+  .extra-mile {
+    margin: 60px auto;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .extra-mile-content {
+    padding: 30px;
+  }
+  .extra-mile-content h1 {
+  font-size: 32px;
+  }
+  .extra-mile-btn {
+    width: 100%;
+  }
   /* bmi  */
   .bmi-content .container {
     flex-direction: column;
