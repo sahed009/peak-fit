@@ -94,7 +94,7 @@ header {
   font-size: 16px;
   line-height: 24px;
 }
-.btn-group  {
+.btn-group {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -170,6 +170,51 @@ header {
 .floating-box-2 p {
   color: #a7a5a2;
   font-size: 16px;
+}
+
+/* habit */
+.habit {
+  margin: 100px auto;
+}
+.habit .habit-headings {
+  width: 45%;
+  margin: 0 auto;
+}
+.habit .habit-headings .habit-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.habit .habit-headings .habit-desc {
+  color: #808080;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.habit-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.habit-content .box {
+  text-align: center;
+}
+.habit-content .box img {
+  border: 5px solid #191919;
+  border-radius: 50%;
+}
+.habit-content .box h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+.habit-content .box p {
+  font-size: 14px;
+  color: #808080;
 }
 /* bmi calculator styles  */
 .bmi-headings {

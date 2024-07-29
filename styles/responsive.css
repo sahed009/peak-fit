@@ -28,8 +28,8 @@
     font-size: 60px;
   }
   .banner-btn1 {
-  margin-right: 5px;
-}
+    margin-right: 5px;
+  }
   .floating-box-1 {
     top: 0;
     left: 190px;
@@ -47,6 +47,22 @@
     grid-template-columns: 30px 110px;
     right: 150px;
     bottom: 250px;
+  }
+  /* habit */
+  .habit  {
+    margin: 20px auto;
+  }
+  .habit .habit-headings {
+    width: 95%;
+  }
+  .habit .habit-headings .habit-title {
+    font-size: 32px;
+  }
+  .habit .habit-headings .habit-desc {
+    font-size: 14px;
+  }
+  .habit-content {
+    grid-template-columns: repeat(1, 1fr);
   }
   /* bmi  */
   .bmi-content .container {
