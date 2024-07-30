@@ -111,4 +111,19 @@
     font-size: 32px;
     line-height: 120%;
   }
+
+  /* team  */
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+  .team-headings {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .team-headings h1 {
+    font-size: 32px;
+    margin-top: 66px;
+    margin-bottom: 40px;
+  }
 }
