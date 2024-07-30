@@ -126,4 +126,16 @@
     margin-top: 66px;
     margin-bottom: 40px;
   }
+  /* footer  */
+  .company {
+    width: 100%;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
