@@ -202,7 +202,7 @@ header {
   text-align: center;
 }
 .habit-content .box img {
-  border: 5px solid #191919;
+  border: 6px solid #191919;
   border-radius: 50%;
 }
 .habit-content .box h3 {
@@ -370,6 +370,7 @@ header {
 .bmi-desc {
   color: #808080;
   font-size: 14px;
+  line-height: 120%;
 }
 .bmi-content {
   background-color: #222222;
@@ -387,7 +388,8 @@ td {
   padding: 10px 0px;
   border: 1px solid #383838;
   border-collapse: collapse;
-  text-align: center;
+  text-align: left;
+  padding-left: 15px;
 }
 .bmi-content table caption {
   font-size: 28px;
