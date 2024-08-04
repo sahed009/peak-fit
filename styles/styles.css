@@ -356,6 +356,94 @@ header {
   background-color: rgba(0, 71, 255, 0.19);
 }
 
+/* unique-section */
+.unique-section {
+  background: #222222;
+  border-radius: 18px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 50px;
+}
+
+.unique-section .header-container {
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.unique-section .header-container h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.unique-section .header-container p {
+  color: #808080;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.unique-section .programs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.unique-section .program-card {
+  position: relative;
+  max-width: 25%;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.program-card .overlay-icon {
+  position: absolute;
+  color: #000;
+  bottom: 10px;
+  right: 15px;
+  opacity: 15%;
+  font-size: 150px;
+}
+.unique-section .progression {
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.unique-section .workout {
+  background-color: #f5f5f5;
+  color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.unique-section .workout h2 {
+  color: #e6533c;
+}
+.unique-section .nutrition {
+  background-color: #e6533c;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(230, 83, 60, 0.4), 0 1px 3px rgba(230, 83, 60, 0.2);
+}
+
+.unique-section .program-card h2 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.unique-section .program-card p {
+  font-size: 1rem;
+  color: inherit;
+}
+
+.unique-section .icon {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
 /* bmi calculator styles  */
 .bmi-headings {
   margin: 88px auto;

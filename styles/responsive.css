@@ -125,7 +125,44 @@
   .overlay {
     font-size: 10px;
   }
+  /* unique section  */
+  .unique-section {
+    margin: 0 auto;
+    padding: 30px;
+  }
 
+  .unique-section .programs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .unique-section .program-card {
+    max-width: 80%;
+    margin: 0 0 20px 0;
+  }
+  .unique-section .header-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .unique-section .header-container h1 {
+    font-size: 32px;
+  }
+
+
+  .unique-section .program-card h2 {
+    font-size: 1.25rem;
+  }
+
+  .unique-section .program-card p {
+    font-size: 0.875rem;
+  }
+
+  .unique-section .icon {
+    font-size: 40px;
+  }
   /* bmi  */
   .bmi-headings {
     margin: 40px auto;
