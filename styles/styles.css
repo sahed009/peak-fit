@@ -363,8 +363,20 @@ header {
   text-align: center;
   margin: 100px auto;
   padding: 50px;
+  position: relative;
 }
-
+.unique-section .gym {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  font-size: 200px;
+  font-weight: 800;
+  height: 100%;
+  color: #8c8c8c;
+  opacity: 0.1;
+  z-index: 1;
+}
 .unique-section .header-container {
   width: 45%;
   margin: 0 auto;

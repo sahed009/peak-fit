@@ -130,7 +130,9 @@
     margin: 0 auto;
     padding: 30px;
   }
-
+  .unique-section .gym {
+    font-size: 150px;
+  }
   .unique-section .programs {
     flex-direction: column;
     justify-content: center;
