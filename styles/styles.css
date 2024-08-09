@@ -37,7 +37,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 47px;
+  gap: 27px;
   color: white;
   background: transparent;
   border: 1px solid #323232;
@@ -73,7 +73,7 @@ header {
   align-items: center;
 }
 .banner-content {
-  width: 40%;
+  width: 50%;
   padding: 40px 0;
 }
 .banner-content h1 {
@@ -106,8 +106,7 @@ header {
   color: white;
   border-radius: 42px;
   cursor: pointer;
-  min-width: 170px;
-  min-height: 55px;
+  padding: 16px 46.5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -280,7 +279,7 @@ header {
   margin: 60px auto;
   display: grid;
   grid-template-columns: repeat(11, 1fr);
-  height: 100vh;
+  height: 50vh;
 }
 .training-item {
   position: relative;
@@ -478,7 +477,7 @@ header {
 }
 .bmi-content .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 175px;
   padding: 52px 0;
 }
@@ -504,7 +503,7 @@ td {
   color: #909090;
 }
 .bmi-chart {
-  flex: 1;
+  flex: 0.6;
 }
 .bmi-calculator {
   flex: 1;
